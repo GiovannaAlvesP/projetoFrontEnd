@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.game-board {
+    width: 100%;
+    height: 500px;
+    border-bottom: 15px solid rgb(0, 204, 17);
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(rgb(0, 139, 204), #fff);
+}
+
+.casa {
+    position: absolute;
+    bottom: 0;
+    width: 60px;
+    height: 80px;
+    animation: casa-animation 2s infinite linear;
+}
+
+.snoopy {
+    width: 150px;
+    position: absolute;
+    bottom: 0;
+}
+
+.jump {
+    animation: jump 500ms ease-out;
+}
+
+.num {
+    position: absolute;
+    width: 550px;
+    animation: num 10s infinite linear;
+}
+
+@keyframes casa-animation {
+    from {
+        right: -100px;
+    }
+    to {
+        right: 100%;
+    }
+}
+
+@keyframes jump {
+    0% {
+        bottom: 0px;
+    }
+    20% {
+        bottom: 120px;
+    }
+    40% {
+        bottom: 120px;
+    }
+    60% {
+        bottom: 120px;
+    }
+    80% {
+        bottom: 80px;
+    }
+    100% {
+        bottom: 0px;
+    }
+}
+
+@keyframes num {
+    from {
+        right: -550px;
+    }
+    to {
+        right: 100%;
+    }
+}
+
+.pontos {
+    text-align: center;
+    background-color: rgba(255, 255, 200, 0.7);
+    width: 10%;
+    border-radius: 40%;
+}
