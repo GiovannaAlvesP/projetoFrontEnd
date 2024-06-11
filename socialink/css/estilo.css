@@ -1,0 +1,91 @@
+body{
+    background-color: black;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.perfil{
+    border-radius: 50%;
+    height: 100px;
+    border: 50%;
+}
+img{
+    border: 4px solid #fff;
+}
+.titulo{
+    letter-spacing: 2px;
+    font-family: "Marck Script", cursive;
+    font-weight: 400px;
+    font-size: 30px;
+    font-style: normal;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.local{
+    font-weight: bold;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    color: #fff;
+}
+p{
+    letter-spacing: 2px;
+}
+.figu{
+    background-color: rgba(255, 0, 0, 0.5);
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+    display: block;
+    margin-top: 30px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+.fig{
+    background-color: rgba(255, 155, 155, 0.8);
+    align-items: center;
+    text-align: center;
+    width: 20%;
+    height: 40%;
+    display: block;
+    margin-top: 30px;
+}
+button{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    cursor: pointer;
+    border: 5px;
+    background-color: black;
+    width: 180px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: 5px;
+    padding: 10px;
+    transition: all 0.15s ease-in-out;
+}
+
+button:hover {
+  background-color: rgb(96, 0, 160);
+  color: hsl(0, 0%, 8%);
+}
+a{
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-family: "Jaini Purva", system-ui;
+    font-weight: 5px;
+    font-style: normal;
+}
+.rodape {
+    font-size: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 1px;
+    font-weight: bold;
+}
+.rodape a{
+    font-size: 8px;
+}
