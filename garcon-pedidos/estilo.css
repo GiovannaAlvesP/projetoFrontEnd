@@ -1,0 +1,48 @@
+body{
+    background-color: 	#ff8d6a;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+#page{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 3%;
+}
+button{
+    align-items: center;
+    text-align: center;
+    display: center;
+    flex-direction: column;
+    width: 200px;
+    height: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 25px;
+    background-color: white;
+    border-radius: 20px;
+    border-color: orangered;
+}
+a{
+    text-align: center;
+    text-decoration: none;
+}
+h1{
+   font-family:  "Playwrite VN", cursive;
+   font-size: 30px;
+}
+h3{
+    font-family:  "Playwrite VN", cursive;
+   font-size: 15px;
+}
+h2{
+    font-family:  "Playwrite VN", cursive;
+    font-size: 20px;   
+}
+
